@@ -92,3 +92,8 @@ body{
     display:flex;
     gap:5px;
 }
+.attribution{
+    display:flex;
+    align-items:flex-end;
+    font-size: 6px;
+}
