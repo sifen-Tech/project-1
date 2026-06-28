@@ -1,6 +1,6 @@
     Social Proof Section
 
-A responsive Social Proof Section built with HTML and CSS3. This project is a solution to the Frontend Mentor Social Proof Section challenge. It showcases customer ratings and testimonials in a clean, modern, and responsive layout.
+A responsive Social Proof Section built with HTML and CSS. This project is a solution to the Frontend Mentor Social Proof Section challenge. It showcases customer ratings and testimonials in a clean, modern, and responsive layout.
 
 
 
@@ -13,9 +13,8 @@ The Social Proof Section project was created to strengthen my HTML and CSS skill
 
 - Responsive layout
 - Customer rating cards
-- Customer testimonial cards
 - Modern and clean user interface
-- Semantic HTML5 structure
+- Semantic HTML structure
 - CSS Flexbox layout
 - Mobile-friendly design
 
@@ -64,7 +63,6 @@ This project helped me practice:
 - Structuring web pages with semantic HTML
 - Creating responsive layouts using CSS Flexbox
 - Working with SVG icons and images
-- Improving typography and spacing
 - Writing clean and organized HTML and CSS
 - Building reusable UI components
 
@@ -79,6 +77,4 @@ This project helped me practice:
 - Challenge by **Frontend Mentor**.
 - Coded by **Sifen Beyan**.
 
-    License
-
-This project is open source and available for educational and personal use.
+    
