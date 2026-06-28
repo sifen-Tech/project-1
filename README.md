@@ -28,7 +28,7 @@ The Social Proof Section project was created to strengthen my HTML and CSS skill
     Project Structure
 
 ```text
-social-proof-section/
+project 1/
 ├── index.html
 ├── styles.css
 ├── README.md
