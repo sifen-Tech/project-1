@@ -9,6 +9,7 @@ body{
     font-family:sans-serif;
     display:flex;
     justify-content:center;
+    padding: 40px 24px;
      }
 .top{
     display:flex;
@@ -91,9 +92,4 @@ body{
 .stars{
     display:flex;
     gap:5px;
-}
-.attribution{
-    display:flex;
-    align-items:flex-end;
-    font-size: 6px;
 }
