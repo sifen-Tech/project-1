@@ -52,7 +52,7 @@ No installation or additional dependencies are required.
 
     Preview
 
-![Project Preview](![alt text](image-2.png))
+![alt text](image-2.png)
 
 
 
