@@ -42,16 +42,7 @@ body{
     flex-direction: column;
     gap:15px;
 }
-.items{
-    display: flex;
-    align-items: center;
-    gap:15px;
-    background:   hsl(300, 24%, 96%);
-    padding:12px 20px;
-    border-radius: 10px;
-    font-weight: bold;
-    color: hsl(300, 43%, 22%);
-}
+
 .paragraph{
     font-size: 15px;
     line-height: 1.5;
@@ -72,13 +63,7 @@ body{
     gap: 15px;
     margin-bottom: 15px;
 }
-.card{
-    background-color:  hsl(300, 43%, 22%);
-    color: hsl(0, 0%, 100%);
-    padding:25px;
-    border-radius: 10px;
-    flex:1;
-}
+
 .under{
     display:flex;
     gap:20px;
@@ -92,4 +77,67 @@ body{
 .stars{
     display:flex;
     gap:5px;
+}
+#items{
+    display: flex;
+    align-self:flex-start;
+    gap:15px;
+    background:   hsl(300, 24%, 96%);
+    padding:12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: hsl(300, 43%, 22%);
+
+}
+#middle{
+    display: flex;
+    align-self:center;
+    gap:15px;
+    background:   hsl(300, 24%, 96%);
+    padding:12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: hsl(300, 43%, 22%);
+
+}
+#last{
+    display: flex;
+    align-self:flex-end;
+    gap:15px;
+    background:   hsl(300, 24%, 96%);
+    padding:12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: hsl(300, 43%, 22%);
+
+}
+#card{
+    background-color:  hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    padding:25px;
+    border-radius: 10px;
+    flex:1;
+    align-self: flex-start;
+    margin-bottom: 10px;
+
+}
+#cardmid{
+     background-color:  hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    padding:25px;
+    border-radius: 10px;
+    flex:1;
+    align-self: center;
+    
+
+}
+#cardlast{
+    background-color:  hsl(300, 43%, 22%);
+    color: hsl(0, 0%, 100%);
+    padding:25px;
+    border-radius: 10px;
+    flex:1;
+    align-self: flex-end;
+    margin-top:30px ;
+
 }
