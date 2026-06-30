@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    padding: 0;
+    padding:0;
     box-sizing: border-box;
 }
 body{
@@ -9,7 +9,7 @@ body{
     font-family:sans-serif;
     display:flex;
     justify-content:center;
-    padding: 40px 24px;
+    padding: 40px;
      }
 .top{
     display:flex;
@@ -59,7 +59,7 @@ body{
 }
 .verified{
     font-size: 15px;
-    color: hsl(303,  10%, 53%);
+    color: hsl(333, 80%, 67%);
 }
 .person img{
     width: 50px;
