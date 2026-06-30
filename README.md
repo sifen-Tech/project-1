@@ -61,7 +61,7 @@ This project helped me practice:
 - Creating responsive layouts using CSS Flexbox
 - Working with SVG icons and images
 - Writing clean and organized HTML and CSS
-- Building reusable UI components
+
 
     Author
 
