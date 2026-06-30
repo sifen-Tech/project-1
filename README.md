@@ -51,10 +51,7 @@ No installation or additional dependencies are required.
 
 
     Preview
-
 ![alt text](image.png)
-
-
 
     Learning Objectives
 
