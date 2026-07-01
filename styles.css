@@ -151,47 +151,43 @@ body{
 
 }
 
-@media (max-width: 600px){
-    .top{
+
+@media (max-width: 768px) {
+
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+    .left h1,
+    .left p {
+        width: 100%;
+    }
+
+    .right {
+        align-items: stretch;
+    }
+
+    .items,
+    .middle,
+    .last {
+        width: 100%;
         flex-direction: column;
+        align-items: center;
         text-align: center;
-        justify-content: center;
-        gap:20px;
+        gap: 10px;
+        align-self: stretch;
     }
-    .right{
-        display: flex;
-        align-items: flex-start;
-        justify-content: center;
-    }
-    .under{
+
+
+    .under {
         flex-direction: column;
+        gap: 20px;
     }
-    .items {
-        width:100%;
+
+
+    .person {
+        justify-content: flex-start;
     }
-    .card:nth-child(2), .card:nth-child(3){
-        width:100%;
-        margin-top: 0;
-    }
-    .items:nthchild(1),.items:nthchild(2){
-        margin-right: 0;
-    }
-    .left, .right{
-        max-width: 100%;
-    }
-    .middle{
-         width:100%;
-    }
-    .last{
-         width:100%;
-    }
-    .stars{
-        max-width:100%;
-        
-        display:block;
-        height:auto;
- 
-    }
-    
-   }
-    
+}
