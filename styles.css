@@ -2,9 +2,14 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'league spartan',sans-serif;
 }
 body{
-    background-color:  hsl(0, 0%, 100%)
+    background-image:url(images/bg-pattern-top-desktop.svg),url(images/bg-pattern-bottom-desktop.svg) ;
+    background-position: top left , bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
     font-size: 15px;
     font-family:sans-serif;
     display:flex;
@@ -30,27 +35,31 @@ body{
     font-size:40px;
     color: hsl(300, 43%, 22%) ;
     margin-bottom: 20px;
+    width:300px;
 }
 .left p{
     color:hsl(303,  10%, 53%);
     line-height: 1.5;
     font-size: 14px;
+    width:370px;
 }
 .right{
     flex:1;
     display:flex;
     flex-direction: column;
-    gap:15px;
+    gap:25px;
+    align-items: flex-end;
 }
 
 .paragraph{
     font-size: 15px;
     line-height: 1.5;
-    color: hsl(0, 0%, 100%);
+    color:hsl(300, 24%, 96%);
 }
 .verified{
     font-size: 15px;
     color: hsl(333, 80%, 67%);
+    line-height: 24px;
 }
 .person img{
     width: 50px;
@@ -76,9 +85,9 @@ body{
 }
 .stars{
     display:flex;
-    gap:5px;
+    gap:8px;
 }
-#items{
+.items{
     display: flex;
     align-self:flex-start;
     gap:15px;
@@ -89,7 +98,7 @@ body{
     color: hsl(300, 43%, 22%);
 
 }
-#middle{
+.middle{
     display: flex;
     align-self:center;
     gap:15px;
@@ -100,7 +109,7 @@ body{
     color: hsl(300, 43%, 22%);
 
 }
-#last{
+.last{
     display: flex;
     align-self:flex-end;
     gap:15px;
@@ -111,7 +120,7 @@ body{
     color: hsl(300, 43%, 22%);
 
 }
-#card{
+.card{
     background-color:  hsl(300, 43%, 22%);
     color: hsl(0, 0%, 100%);
     padding:25px;
@@ -121,7 +130,7 @@ body{
     margin-bottom: 10px;
 
 }
-#cardmid{
+.cardmid{
      background-color:  hsl(300, 43%, 22%);
     color: hsl(0, 0%, 100%);
     padding:25px;
@@ -131,7 +140,7 @@ body{
     
 
 }
-#cardlast{
+.cardlast{
     background-color:  hsl(300, 43%, 22%);
     color: hsl(0, 0%, 100%);
     padding:25px;
@@ -141,3 +150,48 @@ body{
     margin-top:30px ;
 
 }
+
+@media (max-width: 600px){
+    .top{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        gap:20px;
+    }
+    .right{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .under{
+        flex-direction: column;
+    }
+    .items {
+        width:100%;
+    }
+    .card:nth-child(2), .card:nth-child(3){
+        width:100%;
+        margin-top: 0;
+    }
+    .items:nthchild(1),.items:nthchild(2){
+        margin-right: 0;
+    }
+    .left, .right{
+        max-width: 100%;
+    }
+    .middle{
+         width:100%;
+    }
+    .last{
+         width:100%;
+    }
+    .stars{
+        max-width:100%;
+        
+        display:block;
+        height:auto;
+ 
+    }
+    
+   }
+    

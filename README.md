@@ -38,7 +38,8 @@ project 1/
     ├── image-colton.jpg
     ├── image-irene.jpg
     ├── image-anne.jpg
-    
+    |___bg-pattern-bottom-desktop.svg
+    |___bg-pattern-top-desktop.svg
 ```
 
     Getting Started
